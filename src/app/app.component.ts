@@ -7,7 +7,6 @@ import { createWorker } from 'tesseract.js';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'tesseract.js-angular-app';
   ocrResult = 'Recognizing...';
   constructor() {
     this.doOCR();
